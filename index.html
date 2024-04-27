@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stránka věnovaná filmům">
+    <title>Filmy</title>
+    <!-- Importování CSS souboru -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Metadata pro sociální sítě -->
+    <meta property="og:title" content="Filmy">
+    <meta property="og:description" content="Stránka věnovaná filmům">
+    <!-- Mikrodata -->
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "url": "http://www.example.com",
+            "logo": "http://www.example.com/logo.jpg",
+            "contactPoint": [{
+                "@type": "ContactPoint",
+                "telephone": "+1-401-555-1212",
+                "contactType": "customer service"
+            }]
+        }
+    </script>
+</head>
+<body>
+    <!-- Hlavička -->
+    <header>
+        <h1>Vítejte na naší filmové stránce</h1>
+        <!-- Navigace -->
+        <nav>
+            <ul>
+                <li><a href="#about-us">Domů</a></li>
+                <li><a href="#genres">Žánry</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Obsah -->
+    <main>
+        <!-- O nás -->
+        <section id="about-us">
+            <h2>O nás</h2>
+            <p>Stránka věnovaná filmům, kde najdete informace o nejnovějších filmech, recenze a mnoho dalšího.</p>
+        </section>
+        <!-- Žánry -->
+        <section id="genres">
+            <h2>Žánry</h2>
+            <ul>
+                <li><a href="#">Akční</a></li>
+                <li><a href="https://www.imdb.com/list/ls569410907/">Komedie</a></li>
+                <li><a href="#">Drama</a></li>
+                <li><a href="#">Horor</a></li>
+                <li><a href="#">Sci-Fi</a></li>
+                <!-- Přidejte další žánry podle potřeby -->
+            </ul>
+        </section>
+        <!-- Seznam populárních filmů -->
+        <section id="popular-movies">
+            <h2>Populární filmy</h2>
+            <article>
+                <img src="dune2.png" alt="Dune 2">
+                <div>
+                    <h3>Dune 2</h3>
+                    <p>Duna: Část druhá je americký sci-fi film režiséra Denise Villeneuva z roku 2024. Scénář k filmu napsali Villeneuve a Jon Spaihts. Jedná se o pokračování filmu Duna (2021) a tedy druhou z dvoudílné adaptace románu Duna spisovatele Franka Herberta z roku 1965.</p>
+                </div>
+            </article>
+            <article>
+                <img src="oppenheimer.jpg" alt="Oppenheimer">
+                <div>
+                    <h3>Oppenheimer</h3>
+                    <p>Oppenheimer je americký životopisný thriller z roku 2023 režiséra, scenáristy a producenta Christophera Nolana, jenž získal řadu ocenění včetně pěti Zlatých globů a sedmi Oscarů.Hlavní roli ztvárnil Cillian Murphy jako Robert Oppenheimer, jaderný fyzik, přezdívaný „otec atomové bomby“, který se podílel na vývoji prvních jaderných zbraní v rámci projektu Manhattan.</p>
+                </div>
+            </article>
+            <!-- Další filmy -->
+        </section>
+        <!-- Kontakt -->
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Pro spolupráci nás kontaktujte na e-mailové adrese <a href="mailto:commercial@filmy.cz">spoluprace@example.com</a>.</p>
+        </section>
+
+
+        <!-- Odkazy na sociální sítě -->
+        <section id="social-links">
+            <h2>Sledujte nás</h2>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <!-- Přidejte další sociální sítě podle potřeby -->
+            </ul>
+        </section>
+        <!-- Žánry -->
+        <!-- Fat footer -->
+        <footer id="fat-footer">
+            <p>&copy; 2024 Filmy.cz. Všechna práva vyhrazena.</p>
+        </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "stylesheet": {
+    "output": "",
+    "template": [
+      {
+        "text": [
+          "{\"movies\": [",
+          "]}"
+        ],
+        "apply-templates": ""
+      },
+      {
+        "text": [
+          "{\"title\":\"",
+          "\",",
+          "\"genre\":\"",
+          "\",",
+          "\"year\":\"",
+          "\",",
+          "\"director\":\"",
+          "\",",
+          "\"description\":\"",
+          "\"}"
+        ],
+        "value-of": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "if": {
+          "text": ","
+        }
+      }
+    ]
+  }
+}
